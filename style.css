@@ -69,17 +69,36 @@ body {
         background-color: rgb(214, 199, 199);
     }
 
-.body {}
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
-    .content {}
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 100px;
+    }
 
         .info {}
 
-            .info img {}
+            .info img {
+                border: solid blue;
+                border-radius: 10px;
+                padding: 70px;
+                
+            }
 
-            .text {}
+            .text {
+                width: 200px;
+            }
 
-.testimonial {}
+.testimonial {
+    background-color: rgb(214, 199, 199);
+}
 
     .quote {}
 
