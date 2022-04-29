@@ -1,20 +1,73 @@
-.header {}
+body {
+}
 
-    .header div {}
+.top-page {
+    background-color: rgb(60, 60, 83);
+    color: white;
+}
 
-    .header li {}
 
-.front {}
 
-    .container {}
+.header {
+    display: flex;
+    padding: 20px;
+}
 
-        h1 {}
+    .logo {
+        margin-left: 5%;
+    }
 
-        p{}
+    .links {
+        margin-left: auto;
+        margin-right: 5%;
+    }
 
-        .container button {}
+    a {
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+    }
 
-    .front img {}
+.front {
+    border-width: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    gap: 100px;
+}
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        min-width: 300px;
+        flex-shrink: 0;
+    }
+
+        h1 {
+            font-size: 60px;
+            margin: 0;
+            padding: 0;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        .container button {
+            align-self: flex-start;
+            background-color: rgb(63, 115, 230);
+            border-radius: 5px;
+            border-color: rgb(63, 115, 230);
+            color: white;
+            width: 85px;
+        }
+
+    .front img {
+        padding: 150px;
+        background-color: rgb(214, 199, 199);
+    }
 
 .body {}
 
